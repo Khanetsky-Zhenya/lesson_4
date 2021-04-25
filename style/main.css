@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*====================HEADER====================*/
+.header-wrapper { /*св-ва для основного фона herder*/
+    width: 1400px;
+    height: 70px;
+    margin: 0 auto;
+    background: #000000;
+}
+.container {               /*св-ва для центрирования основного блока с информацией*/
+    width: 84.42%;
+    margin: 0 auto;
+}
+.header-logo {               /*св-ва для блока логотипа*/
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    margin-top: 20px;
+}
+.header-logo__title {               /* св-ва для логотипа*/
+    font-family: Raleway;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none
+}
+.header-logo__color {               /*св-ва для изменения цвета в логотипе*/
+    color: #EC7979;
+}
+.header-menu {               /*св-ва для блока навигации*/
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 600px;
+    text-align: right;
+    vertical-align: top;
+    font-size: 0;
+    list-style-type: none;  
+}
+.header-menu__list {   /*выравнивание навигации в линию*/
+    display: inline; 
+    font-size: 0;
+    margin-left: 48px;
+}
+.header-menu__item { /*св-ва элемента навигации*/
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+/*====================MAIN===================*/
+/*==========Section main-viev==========*/
+.main-viev {                                              /*св-ва для изображения*/
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(../img/background/main-viev.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.main-info {                    /*св-во для общего блока для образования inline-block*/
+    display: inline-block;
+    width: 544px;
+    height: 391px;
+    font-size: 0;
+}
+.main-info__title {          /*св-ва для заголовка*/
+    padding-top: 108px;
+    font-family: Roboto;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+.main-info__subtitle {       /* св-ва для подзаголовка*/
+    width: 544px;
+    height: 99px;
+    padding-top: 32px;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main-info__line {               /*св-во для линии*/
+    width: 64px;
+    margin-top: 32px;
+    border: 1px solid #FFFFFF;
+}
+.main-info__text {            /*св-во для текста*/
+    width: 282px;
+    height: 38px;
+    margin-top: 39px;
+    font-family: Raleway;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.main-info__button {               /*св-во для кнопки*/
+    width: 135px;
+    height: 42px;
+    margin-top: 39px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    cursor: pointer;
+}
+.form {                      /*св-во для всего блока формы*/
+    display: inline-block;
+    width: 370px;
+    height: 370px;
+    vertical-align: top;
+    margin-top: 110px;
+    margin-left: 263px;
+    font-size: 0;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;  
+    }
+.main-form__title { /*св-во для заголовка формы*/
+    height: 56px;
+    margin-bottom: 22px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 20px;
+    line-height:56px;
+    align-items: center;
+    color: #333333;
+}
+.main-form__input { /*св-во для inputов формы*/
+    display: block;
+    width: 252px;
+    height: 57px;
+    margin-left: 59px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: Open Sans;
+    font-size: 14px;
+}
+.main-form__botton { /*св-во для кнопки формы*/
+    width: 370px;
+    height: 54px;
+    margin-top: 64px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #EC7979;
+    border-radius: 0px 0px 8px 8px;
+    border: none;
+    cursor: pointer;
+}
+/*==========Section social media==============================================================================================================================================*/
+.social { /*сво-во для блока social (его размер)*/
+    width: 1400px;
+    height: 110px;
+    margin: 0 auto;
+    background: #F8EFEF;
+}
+.social-content {            /*св-ва блока всего с текстами*/
+    display: inline-block;
+    width: 365px;
+    height: 79px;
+    font-size: 0;
+}
+.social-content__title { /*св-во заголовка*/
+    padding-top: 14px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+.social-content__text { /*св-во подзаголовка*/
+    padding-top: 14px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+.social-pic { /*св-во картинки*/
+    display: inline-block;
+    width: 684px;
+    height: 42px;
+    vertical-align: top;
+    margin-top: 34px;
+    margin-left: 128px;
+    background-image: url(../img/background/social-media.png);
+    font-size: 0;  
+    /*background: url(../img/background/social-media.png); right: top;*/
+}
+/*==========Section TABS WITH SOFT TRANSITIONING EFFECT.=====================================================================================================================*/
+.tabs-effect {      /*св-ва для фона*/
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+}
+.tabs-wrap { /*св-ва для 3х блоков tab1*/
+    display: inline-block;
+    font-size: 0px;
+    vertical-align: top;
+}
+.tabs-description { /*св-во для всего блока с текстом*/
+    display: inline-block;
+    font-size: 0px;
+    vertical-align: top;
+    margin-left: 118px;
+}
+.tabs-wrap__active {/*св-во для активного блока tab1*/
+    margin-top: 125px;
+    width: 112px;
+    height: 110px;
+    background: #EC7979;
+    border-radius: 4px;
+    line-height: 110px;
+}
+.tabs-wrap__inactive {/*св-во для неактивного блока tab1*/
+    margin-top: 10px;
+    width: 112px;
+    height: 110px;
+    background: #333333;
+    border-radius: 4px;
+    line-height: 110px;
+}
+.tabs-wrap__text { /* св-ва для самого слова Tab 1*/
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+.tabs-description__title { /*св-ва для заголовка*/
+    margin-top: 126px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.tabs-description__subtitle { /*св-ва для подзаголовка*/
+    width: 572px;
+    height: 133px;
+    margin-top: 58px;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #86878B;
+}
+.tabs-description__button { /*св-ва для кнопки*/
+    margin-top: 89px;
+    width: 135px;
+    height: 42px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;;
+    background: #EC7979;
+    cursor: pointer;
+}
+.tabs-pic { /*св-ва для изображения*/
+    display: inline-block;
+    width: 320px;
+    height: 253px;
+    vertical-align: top;
+    margin-top: 100px;
+    margin-left: 50px;
+    background-image: url(../img/background/transitioning-effect.png);
+    font-size: 0;
+}
+/*==========Section advantages=============================================================================================================================================*/
+.advantages {      /*св-ва для фона*/
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+}
+.universal-content { /*обозначил для универсального блока его размеры и отступ плюс центрирование*/
+    height: 131px;
+    padding-top: 80px;
+    text-align: center;
+}
+.universal-content__title { /*для универсального блока задал св-ва для заголовка*/
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    text-transform: uppercase;
+}
+.universal-content__line {/*для универсального блока задал св-ва для линии*/
+    width: 64px;
+    height: 2px;
+    margin: 34px auto;
+    background-color: #E72424;
+    border: none;
+}
+.universal-content__subtitle { /*для универсального блока задал св-ва для подтекста*/
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+.advantages-info { /*cв-во выравнивает 2 блока по центру главного экрана*/
+    text-align: center;
+}
+.advantages-card { /*св-ва для каждой карты .. ее размер и отступы слева и справа*/
+    display: inline-block;
+    width: 350px;
+    height: 225px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.advantages-card__icon { /*св-ва для кругов*/
+    width: 70px;
+    height: 70px;
+    margin-top: 68px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.advantages-card__title { /*св-ва для заголовка*/
+    margin-bottom: 16px;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+.advantages-card__description { /*св-ва для описания*/
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+.icon--lamp { /*св-ва лоя иконки 1*/
+    background: url(../img/icons/lamp.png) no-repeat center center;
+}
+.icon--keyboard {/*св-ва лоя иконки 2*/
+    background: url(../img/icons/keyboard.png) no-repeat center center;
+}
+.icon--lightning {/*св-ва лоя иконки 3*/
+    background: url(../img/icons/lightning.png) no-repeat center center;
+}
+/*==========Section price==================================================================================================================================================*/
+.price {      /*св-ва для фона*/
+    width: 1400px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+}
+.price-info { /*выравнивание по центру блоков из 3 блоков*/
+   text-align: center;
+}
+/*=====ТУТ ПОДГРУЖАЕТСЯ АВТОМАТОМ УНИВЕРСАЛЬНЫЙ БЛОК (ПОВТОРЯЮЩИЙСЯ)=======*/
+.price-card { /*св-ва для выравнивания в одну строку всех 3х блоков и задача им размера*/
+    display: inline-block;
+    height: 467px;
+    vertical-align: top;
+    font-size: 0;
+}
+.price-card__list { /*убираю перед эл-том списка точку*/
+    list-style-type: none;
+}
+.price-card__type { /*св-ва первой строки списка*/
+    width: 340px;
+    height: 50px;
+    border-bottom: 1px solid #FFFFFF;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #333333;
+    }
+.price-card__cost { /*св-ва второй строки списка*/
+    width: 340px;
+    height: 100px;
+    /*margin-top: 1px;*/
+    border-bottom: 2px solid #FFFFFF;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 100px;    
+    text-align: center;  
+    color: #FFFFFF; 
+    background: #333333;
+}
+.price-card__life { /*св-ва третьей строки списка*/
+    width: 340px;
+    height: 50px;
+    border-bottom: 4px solid #F5F5F5;
+    /*margin-top: 2px;*/
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+}
+.price-card__space { /*св-ва остальных строк списка*/
+    width: 340px;
+    height: 40px;
+    border-bottom: 4px solid #F5F5F5;
+    /*margin-top: 4px;*/
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #86878B;
+    background: #FFFFFF;
+}
+.price-card__list-center { /*модификатор для центрального блока списка*/
+    margin-top: 47px;
+    margin-left: 77px;
+    margin-right: 76px;
+}
+.price-card__list-left { /*модификатор для левого блока списка*/
+    margin-top: 62px;
+}
+.price-card__list-right { /*модификатор для правого блока списка*/
+    margin-top: 62px;
+}
+/*==========Section reviews========================================================================================================================================================*/
+.reviews {      /*св-ва для фона*/
+    width: 1400px;
+    height: 600px;
+    margin: 0 auto;
+}
+/*=====ТУТ ПОДГРУЖАЕТСЯ АВТОМАТОМ УНИВЕРСАЛЬНЫЙ БЛОК (ПОВТОРЯЮЩИЙСЯ)=======*/
+.reviews-info {
+    text-align: center;
+}
+.testomonical { /*размер всего блока для цитат*/
+    display: inline-block;
+    height: 202px;
+}
+.testomonical-quote__back { /*св-ва фона цитаты*/
+    width: 298px;
+    height: 110px;
+    margin-top: 67px;
+    background-color: #E2E2E2;
+    border-radius: 7px;
+}
+.testomonical-quote { /*св-ва текстовой части цитаты*/
+    padding-top: 14px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+}
+.testomonical-avatar { /*св-ва картинки аватара*/
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin-top: 22px;
+    background: url(../img/icons/avatar.png);
+}
+.testomonical-person { /*св-во которое объединяет имя и должность*/
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+.testomonical-avatar--inline { /*св-во для инлайн фото*/
+    display: inline-block;
+    height: 467px;
+    font-size: 0;
+}
+.testomonical-name { /*св-ва для текста имени*/
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+.testomonical-job { /*св-ва для текста должности*/
+    margin-top: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+}
+.testomonical-center { /*св-во для модификатора центрального блока*/
+    margin-right: 98px;
+    margin-left: 98px;
+}
+/*==========Section download=======================================================================================================================================================*/
+.download {      /*св-ва для фона*/                   
+    width: 1400px;
+    height: 325px;
+    margin: 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/background/download.png); /*св-ва для картинки+прозрачность*/
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+/*=====ТУТ ПОДГРУЖАЕТСЯ АВТОМАТОМ УНИВЕРСАЛЬНЫЙ БЛОК (ПОВТОРЯЮЩИЙСЯ)=======*/
+.universal-content-padding { /*св-ва для модификатора тут отступ сверху не 80пх, а 57пх*/
+    padding-top: 57px;
+}
+.universal-content__title-color-padding { /*св-ва для модификатора тут другой цвет !!!!!!! но почему-то не подгружается шиина шрифта, она должны быть 400 а стоит 500. пробовал добавлять свойством - не меняется*/ 
+    color: #FFFFFF;
+}
+.universal-content__line-color {/*св-ва для модификатора тут другой цвет*/
+    background-color: #FFFFFF;
+}
+.universal-content__subtitle-color { /*св-ва для модификатора тут другой цвет*/
+    color: rgba(255, 255, 255, 0.8);
+}
+.button-center { /*центрирую кнопку по центру*/
+    text-align: center;
+}
+.main-info__button-position { /*св-ва для модификатора тут другой отступ сверху*/
+    margin-top: 57px;
+}
+/*==========Section contact=====================================================================================================================================================*/
+.contact {
+    width: 1400px;
+    height: 700px;
+    margin: 0 auto;
+}
+/*=====ТУТ ПОДГРУЖАЕТСЯ АВТОМАТОМ УНИВЕРСАЛЬНЫЙ БЛОК (ПОВТОРЯЮЩИЙСЯ)=======*/
+.contact-form {
+  margin: 0 auto;
+}
+.contact-form__left { /*св-ва ЧТОБЫ левых 3х поля стали в столбец*/
+    display: inline-block;
+    margin-top: 46px;
+}
+.contact-form__right { /*св-ва поля для отправки текста*/
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 76px;
+    text-align: top;
+}
+.contact__input { /*св-ва в столбец*/
+    display: block;
+    width: 478px;
+    height: 96px;
+    font-family: Open Sans;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+}
+.contact__input-message { /*св-во для */
+    width: 478px;
+    height: 260px;
+    margin-left: 220px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    font-family: Open Sans;
+    font-size: 14px;
+
+}
+.contact__button-center {/*див с кнопкой по центру*/
+    text-align: center;
+    margin-top: 68px;
+}
+.contact__button {/*св-ва кнопки*/
+    width: 166px;
+    height: 42px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background: #EC7979;
+    cursor: pointer;
+}
+/*==========footer=====================================================================================================================================================*/   
+.footer-wrapper { /*размеры и позиционирование футера*/
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    background: #000000;
+}
+.container-footer { /*выровнять все по центру сделалчерез модификатор для уменьшения строк в html*/ 
+    text-align: center;
+}
+.footer-content__pic { /*св-во для отступа картинки*/
+    margin-top: 30px;
+}
+.footer-content__text { /*св-ва теста */
+    margin-top: 18px;
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
